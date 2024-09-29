@@ -1,0 +1,39 @@
+.zilla-slab-semibold-italic {
+    font-family: "Zilla Slab", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: .5s ease;
+    font-family: "Zilla Slab", serif;
+}
+
+.inputs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+input {
+    width: 200px;
+    height: 40px;
+
+}
+
+.left {
+    margin: 25% right;
+} 
+
+button {
+    width: 275px;
+    height: 60px;
+    margin-right: 50px;
+}
+
+.need {
+    color: gray;
+    font-size: xx-small;
+}
